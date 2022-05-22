@@ -20,7 +20,7 @@ View components in storybook by running the below command:
 $ npm run storybook
 ```
 
-Open http://localhost:6006/ in your browser to view Storybook.
+Open [http://localhost:6006](http://localhost:6006) with your browser to see the result.
 
 ## Dependencies
 
