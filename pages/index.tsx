@@ -21,7 +21,7 @@ const Home: NextPage = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Sample App</title>
         <meta name="description" content="This is a sample app" />
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         <h1 className="text-3xl">TODO App</h1>
 
         {todoItems.map((item, i) => (
-          <div key={i}>item here</div>
+          <div key={i}>This is a sample TODO App</div>
         ))}
 
         <div>
@@ -45,14 +45,7 @@ const Home: NextPage = () => {
           />
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        Powered by
-        <span className={styles.logo}>
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </span>
-      </footer>
-    </div>
+    </>
   );
 };
 
