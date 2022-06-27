@@ -1,6 +1,8 @@
 Sample TODO App
 ================
 
+![](todo-app.png "A sample screen of a TODO App")
+
 ## Dependencies
 
 The follow dependencies are in use:
